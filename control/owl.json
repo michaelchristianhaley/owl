@@ -1,0 +1,50 @@
+{
+  "name": "owlbox",
+  "method": "The OWL Method",
+  "version": "1.0.0",
+  "canonical_files": [
+    "README.md",
+    "OWL.md",
+    "HOWTOUPDATEOWL.md",
+    "OUTLINE.md",
+    "WISDOM.md",
+    "LEGACY.md",
+    "control/owl.json",
+    "templates/OUTLINE.md",
+    "templates/WISDOM.md",
+    "templates/LEGACY.md",
+    "scripts/owl.py",
+    "tests/test_owl.py",
+    ".github/workflows/validate.yml",
+    ".editorconfig",
+    ".gitattributes",
+    ".gitignore"
+  ],
+  "generated_files": [
+    "MAP.md",
+    "LANDING_PAD.md"
+  ],
+  "landing_pad_exclude": [
+    "LANDING_PAD.md"
+  ],
+  "file_summaries": {
+    ".editorconfig": "Defines portable text formatting.",
+    ".gitattributes": "Normalizes text and line endings.",
+    ".github/workflows/validate.yml": "Runs owlbox validation and tests in CI.",
+    ".gitignore": "Excludes caches and temporary files.",
+    "HOWTOUPDATEOWL.md": "Defines the safe update and release procedure.",
+    "LANDING_PAD.md": "Generated assistant-readable repository bundle.",
+    "LEGACY.md": "Records owlbox's chronological continuity.",
+    "MAP.md": "Generated human-readable repository map.",
+    "OUTLINE.md": "Tracks owlbox's active work.",
+    "OWL.md": "Defines the OWL Method.",
+    "README.md": "Introduces owlbox and its shortest usable path.",
+    "WISDOM.md": "Stores durable lessons learned while building owlbox.",
+    "control/owl.json": "Defines repository files, generated views, and validation inputs.",
+    "scripts/owl.py": "Initializes, generates, and validates OWL repositories.",
+    "templates/LEGACY.md": "Starter chronological project record.",
+    "templates/OUTLINE.md": "Starter active working-memory file.",
+    "templates/WISDOM.md": "Starter durable-knowledge file.",
+    "tests/test_owl.py": "Tests success and known failure modes."
+  }
+}
